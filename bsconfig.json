@@ -1,0 +1,34 @@
+{
+  "name": "rescript-nextjs-cypress-storybook-template",
+  "suffix": ".bs.js",
+  "jsx": {
+    "version": 4,
+    "mode": "classic"
+  },
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-vitest",
+    "rescript-react-testing-library"
+  ],
+  "bs-dev-dependencies": [
+    "rescript-dom-testing-library"
+  ],
+  "sources": [
+    {
+      "dir": "bindings",
+      "subdirs": true
+    },
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "cypress",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  }
+}
