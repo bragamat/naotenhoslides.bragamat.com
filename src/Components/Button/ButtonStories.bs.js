@@ -6,7 +6,7 @@ import * as Storybook from "../../../bindings/Storybook/Storybook.bs.js";
 
 function basicUsage(param) {
   return React.createElement(Button.make, {
-              label: "Button"
+              children: "Button"
             });
 }
 

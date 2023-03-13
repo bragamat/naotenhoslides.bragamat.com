@@ -1,7 +1,8 @@
 @react.component
-let make = (~children) => {
-  <button
+let make = (~children, ~href) => {
+  <a
+    href=href
     className="rounded-md bg-indigo-600 py-1.5 px-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
     children
-  </button>
+  </a>
 }

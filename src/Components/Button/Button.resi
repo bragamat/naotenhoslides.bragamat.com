@@ -1,2 +1,2 @@
 @react.component
-let make: (~label: string) => React.element
+let make: (~children: React.element) => React.element

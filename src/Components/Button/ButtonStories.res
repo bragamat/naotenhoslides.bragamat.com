@@ -1,5 +1,5 @@
 let basicUsage = () => { 
-  <Button label="Button" />
+    <Button >{ "Button" -> React.string}</Button>
 }
 
 let default = Storybook.story(~title="Components/Button", ())

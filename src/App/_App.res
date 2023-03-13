@@ -23,5 +23,5 @@ let make = (props: props): React.element => {
 
   let content = React.createElement(component, pageProps)
 
-  content
+  <Default.Layout> content </Default.Layout>
 }
